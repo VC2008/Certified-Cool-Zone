@@ -3,5 +3,20 @@ body{
 }
 h1{
     background-color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "captain-comic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.logo{
+    animation: float 15s infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+ 
 }
