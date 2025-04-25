@@ -61,22 +61,36 @@
           <!--Navbar ends-->
     </head>
     <body>
-        <div id="gameContainer">
-        <h1>Tic Tac Toe Board!</h1>
-        <div id="cellContainer">
-            <div cellIndex="0" class="cell"></div>
-            <div cellIndex="1" class="cell"></div>
-            <div cellIndex="2" class="cell"></div>
-            <div cellIndex="3" class="cell"></div>
-            <div cellIndex="4" class="cell"></div>
-            <div cellIndex="5" class="cell"></div>
-            <div cellIndex="6" class="cell"></div>
-            <div cellIndex="7" class="cell"></div>
-            <div cellIndex="8" class="cell"></div>
-        </div>
-        <h2 id="statusText"></h2>
-        <button id="restartBtn">Restart</button>
-        </div>
+        <header>
+            <!-- place navbar here -->
+        </header>
+        <main>
+<div class="container">
+    <div class="row">
+<div class="col align-self-center">
+<div id="magic-8-ball">
+    <h1>Fortune Telling Djungelskog</h1>
+    </div>
+    <p id="greeting"></p>
+    <h2 id="response-text">
+       ask a question to the almighty bear of wisdom
+    </h2>
+</div>
+</div>
+    <div class="row">
+<img id="response-img" src="IMGS/Djungelskog.png" width="200px">
+
+<div class="col align-self-center">
+<button onclick="shakeMagic8Ball()" class="btn-text-success" >State your Worries</button>
+</div>
+</div>
+</div>
+
+        </main>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -90,3 +104,4 @@
         ></script>
         <script src="script.js"></script>
     </body>
+</html>
